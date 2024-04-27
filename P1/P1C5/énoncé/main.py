@@ -1,14 +1,20 @@
-nom = "Sunday"
-age = int(23)
-taille = float(1.63)
-est_etudiant = 'True'
+#Je definie les variables
+Nom = "Sunday"
+Age = 23
+Taille = 1.63
+Est_etudiant =True
 
-print("nom:", nom)
-print("age:" , age )
-print("taille:", taille)
-print ("est_etudiant:", est_etudiant)
 
-print ("type nom:",(type(nom)))
-print("type age:",(type(age)))
-print("type taille:", (type(taille)))
-print("type est_etudiant:", (type(est_etudiant)))
+
+#Affichage des valeurs
+print(f"Nom: {Nom}")
+print(f"Age: {Age}")
+print(f"Taille: {Taille}")
+print(f"Est_etudiant: {Est_etudiant}")
+
+
+#Affichage des types de variables
+print(f"Type Nom: {type(Nom)}")
+print(f"Type Age: {type(Age)}")
+print(f"Type taille: {type(Taille)}")
+print(f"Type Est_etudiant: {type(Est_etudiant)}")
